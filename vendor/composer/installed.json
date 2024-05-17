@@ -1,0 +1,70 @@
+{
+    "packages": [
+        {
+            "name": "markrogoyski/ipv4-subnet-calculator",
+            "version": "v4.0.0",
+            "version_normalized": "4.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/markrogoyski/ipv4-subnet-calculator-php.git",
+                "reference": "fc7f63556bb5322af0234368b11daad9a2b17b51"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/markrogoyski/ipv4-subnet-calculator-php/zipball/fc7f63556bb5322af0234368b11daad9a2b17b51",
+                "reference": "fc7f63556bb5322af0234368b11daad9a2b17b51",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.0",
+                "php-parallel-lint/php-parallel-lint": "^1.2",
+                "phploc/phploc": "*",
+                "phpmd/phpmd": "^2.6",
+                "phpstan/phpstan": "*",
+                "phpunit/phpunit": "^8.5",
+                "squizlabs/php_codesniffer": ">=3.6"
+            },
+            "time": "2021-12-28T23:59:21+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "IPv4\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Rogoyski",
+                    "email": "mark@rogoyski.com",
+                    "homepage": "https://github.com/markrogoyski",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "Network calculator for subnet mask and other classless (CIDR) network information.",
+            "homepage": "https://github.com/markrogoyski/ipv4-subnet-calculator-php",
+            "keywords": [
+                "IP",
+                "address",
+                "calculator",
+                "cidr",
+                "ipv4",
+                "network",
+                "subnet"
+            ],
+            "support": {
+                "issues": "https://github.com/markrogoyski/ipv4-subnet-calculator-php/issues",
+                "source": "https://github.com/markrogoyski/ipv4-subnet-calculator-php/tree/v4.0.0"
+            },
+            "install-path": "../markrogoyski/ipv4-subnet-calculator"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

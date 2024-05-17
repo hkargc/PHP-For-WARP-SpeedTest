@@ -1,0 +1,11 @@
+{
+    "require": {
+		"markrogoyski/ipv4-subnet-calculator": ">=4.0.0"
+    },
+	"repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.org"
+        }
+    }
+}
