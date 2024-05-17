@@ -111,3 +111,10 @@ foreach($list as $a){
 	}
 	echo implode("\t", $a)."\n";
 }
+
+$a = array_shift($list);
+
+$s = "@echo off\n";
+$s .= "\"C:\Program Files\Cloudflare\Cloudflare WARP\warp-cli\" tunnel endpoint reset\n";
+$s .= "\"C:\Program Files\Cloudflare\Cloudflare WARP\warp-cli\" tunnel endpoint set {$a['dst']}\n";
+file_put_contents(__DIR__ . '/warp.bat', $s);
