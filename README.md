@@ -4,7 +4,7 @@
 网上有个 warp.exe 实现了优选功能,但没有开源,exe用起来也不方便,于是试试用世界上至少第二好的语言来搞一下^_^<br />
 
 Cloudflare WARP 采用的是UDP协议,有资料说跟wireguard兼容,实际用Wireshark分析看起来并不一致<br />
-这里取个巧,把抓的第一个包用于模拟"握手"请求,分析收发包的时间间隔<br />
+这里取个巧,把抓的warp.exe第一个包用于模拟"握手"请求,分析收发包的时间间隔<br />
 
 主要参考了以下项目:<br />
 https://github.com/XIU2/CloudflareSpeedTest<br />
